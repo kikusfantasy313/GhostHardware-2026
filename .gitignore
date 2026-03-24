@@ -1,0 +1,23 @@
+# === GhostHardware: Build & Driver Exclusions ===
+
+# Compiled Binaries
+*.exe
+*.sys
+*.dll
+bin/
+obj/
+
+# Driver Signing & Certs (CRITICAL)
+*.pfx
+*.cer
+/certificates/
+
+# Logs & Temp
+*.log
+/dump/
+/backups/
+
+# Development
+.vs/
+*.user
+*.suo
